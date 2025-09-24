@@ -6,11 +6,11 @@ document.title = "Sofya Sakhaeva M2Assignment:";
 console.log(document.title);
 //Ex1
 //Convert the following highlighted identifiers to Camel Case notation:
-//The string some_month in CamelCase notation would look like this: someMonth.
-//The string the Month() in CamelCase notation would look like this: theMonth().
-//The string the current-month in CamelCase notation would look like this: currentMonth.
-//The string the summer_month in CamelCase notation would look like this:  summerMonth.
-//The string the MyLibrary-function in CamelCase notation would look like this:  myLibraryFunction.
+//The string some_month in CamelCase notation: someMonth.
+//The string the Month() in CamelCase notation: theMonth().
+//The string the current-month in CamelCase notation: currentMonth.
+//The string the summer_month in CamelCase notation:  summerMonth.
+//The string the MyLibrary-function in CamelCase notation:  myLibraryFunction.
 //Ex2
 const SofyaNumber = 2025;// Numeric literal expression
 const SofyaString = "Hello, JavaScript!";// String literal expression
@@ -22,12 +22,12 @@ const myName = "Lida";
 const age = 57;
 // Example: combining functions into a formula:
 const Greeting = `Hello, my name is ${myName} and I'm ${age} years old.`;
-console.log(Greeting); // Output: Hello, my name is Alexey and I'm 30 years old.
+console.log(Greeting); // Output: Hello, my name is Lida and I'm 57 years old.
 //Ex3.2 Example Logical operator:
 let accessAllowed = age > 21 ? true : false; /* If age is greater than 18,
  access is allowed (true), otherwise, access is denied (false) */
 //Ex4
-let youFirstName;
+let firstName;
 let lastName;
 let strAddress;
 let strCity;
@@ -40,10 +40,8 @@ let boolMayWeContactYou;
 let strFirstName;
 strFirstName = "Nina";
 let firstName = strFirstName;
-strFirstName = "Lina";
 lastName = "Pack";
-let myCase = "Lin" + " Pick";
-console.log(myCase);
+console.log(first name,  lastName);
 boolMayWeContactYou = true;
 boolPhoneNumberWeContactYou = false;
 //Ex6
@@ -151,4 +149,5 @@ const str2 = "world";
 const result1 = (num1 < num2) && (str1 === str2);
 // Display the result in the console
 console.log("The evaluation of the expression is:", result1);
+
 
