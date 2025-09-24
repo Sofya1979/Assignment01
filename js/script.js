@@ -71,10 +71,14 @@ let someString = `Who once said, "Only two things are infinite, the universe and
 console.log(someString);
 
 //Ex9
-let myVariable1 = null;//Create a variable that produces a null value in the console window.
-console.log(myVariable1);
-let myVariable2;
-console.log(myVariable2);//create a variable that produces an undefined value in the console window
+// Create a variable that explicitly holds a null value
+let nullVariable = null;
+
+// Create a variable that is declared but not assigned a value, resulting in undefined:
+let undefinedVariable;
+//Display the values of both variables in the console:
+console.log("Value of nullVariable:", nullVariable);
+console.log("Value of undefinedVariable:", undefinedVariable);
 //Ex10
 console.log(typeof "Hello, classmate!"); // string
 console.log(typeof 6); // number
