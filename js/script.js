@@ -39,9 +39,9 @@ let boolMayWeContactYou;
 //Ex5
 let strFirstName;
 strFirstName = "Nina";
-let firstName = strFirstName;
+firstName = strFirstName;
 lastName = "Pack";
-console.log(first name,  lastName);
+console.log(firstName,  lastName);
 boolMayWeContactYou = true;
 boolPhoneNumberWeContactYou = false;
 //Ex6
