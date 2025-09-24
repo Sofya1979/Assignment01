@@ -2,7 +2,7 @@
 const currentTitle = document.title;
 console.log('Sofya Sakhaeva:', currentTitle);
 //Setting a new page title
-document.title = "Sofya Sakhaeva M2 Assignment:";
+document.title = "Sofya Sakhaeva M2Assignment:";
 console.log(document.title);
 //Ex1
 //Convert the following highlighted identifiers to Camel Case notation:
