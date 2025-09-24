@@ -6,8 +6,6 @@ document.title = "Sofya Sakhaeva M2Assignment:";
 console.log(document.title);
 //Ex1
 //Convert the following highlighted identifiers to Camel Case notation:
-
-let some_month
 //The string some_month in CamelCase notation would look like this: someMonth.
 //The string the Month() in CamelCase notation would look like this: theMonth().
 //The string the current-month in CamelCase notation would look like this: currentMonth.
@@ -153,3 +151,4 @@ const str2 = "world";
 const result1 = (num1 < num2) && (str1 === str2);
 // Display the result in the console
 console.log("The evaluation of the expression is:", result1);
+
